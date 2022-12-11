@@ -25,16 +25,7 @@ div {
     background-color: #f2f2f2;
     border-radius: 15px;
     text-align: center;
-    margin: 0, auto;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
-}
-
-article {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    text-align: center;
-    margin: 0, auto;
+    margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
     border: 1px solid #aaa;
 }
@@ -107,7 +98,7 @@ article {
 
 .bio img {
     border-radius: 100%;
-    margin: 25px, auto;
+    margin: 25px auto;
     margin-top: 25px;
     margin-bottom: 25px;
     width: 400px;

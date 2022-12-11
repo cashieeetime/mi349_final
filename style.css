@@ -14,14 +14,18 @@ h1 {
 }
 
 h2 {
-    margin: 0;
-    font-weight: 100;
+    margin: 15px;
+}
+
+p {
+    margin: 15px;
 }
 
 .card {
     background-color: #f2f2f2;
     border-radius: 15px;
     margin: 0, auto;
+    margin-top: 200px;
     margin-left: 400px;
     margin-bottom: 25px;
     width: 400px;
@@ -36,6 +40,11 @@ h2 {
     height: 100px;
     border-radius: 50%;
     margin-top: -75px;
+}
+
+.card h2 {
+    margin: 0;
+    font-weight: 100;
 }
 
 .contacts {
@@ -55,26 +64,13 @@ h2 {
     transition: opacity ease-in-out 0.2s;
 }
 
-.home .nav {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    text-align: center;
-    margin: 0, auto;
-    margin-left: 200px;
-    margin-top: 25px;
-    width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
-    position: sticky;
-}
-
-.about .nav {
+.nav {
     background-color: #f2f2f2;
     border-radius: 15px;
     text-align: center;
     margin: 0, auto;
     margin-left: 500px;
-    margin-top: -500px;
+    margin-top: 25px;
     width: 200px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
     border: 1px solid #aaa;
@@ -98,12 +94,6 @@ h2 {
     transition: opacity ease-in-out 0.2s;
 }
 
-.nav h2 {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
 .bio {
     background-color: #f2f2f2;
     border-radius: 15px;
@@ -111,7 +101,7 @@ h2 {
     width: 600px;
     margin: 0 auto;
     margin-left: 900px;
-    margin-top: -245px;
+    margin-top: -500px;
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
     border: 1px solid #aaa;
 }
@@ -125,14 +115,26 @@ h2 {
     height: 500px;
 }
 
-.bio h2 {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+.blogheader {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    margin-left: 1050px;
+    margin-top: -450px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
 }
 
-.bio p {
-    margin-top: 25px;
-    margin-left: 25px;
-    margin-right: 25px;
+.blogpost {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 900px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
 }

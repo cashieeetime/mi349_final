@@ -35,7 +35,7 @@ article {
     border-radius: 15px;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
     box-shadow: #fdc54c 0 0 15px;
     border: 1px solid #aaa;
 }
@@ -48,7 +48,7 @@ article {
 }
 
 .card .avatar {
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    box-shadow: #fdc54c 0 0 20px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -78,7 +78,7 @@ article {
 
 .nav {
     margin-left: 500px;
-    margin-top: 25px;
+    margin-top: 40px;
     width: 200px;
     position: sticky;
 }
@@ -119,18 +119,18 @@ article {
     width: 300px;
     margin-left: 1050px;
     margin-top: -450px;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .blogpost {
     width: 600px;
     margin-left: 900px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 .linklist li {
-    width: 100px;
+    width: 60px;
     display: inline-block;
     padding: 20px 20px;
 }

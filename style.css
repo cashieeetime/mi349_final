@@ -29,7 +29,7 @@ img {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    flex-shrink: 5;
+    flex-shrink: 1;
 }
 
 .card {

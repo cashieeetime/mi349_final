@@ -18,20 +18,32 @@ h2 {
 }
 
 p {
-    margin: 15px;
+    margin: 20px;
+}
+
+div {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0, auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
+}
+
+article {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0, auto;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
 }
 
 .card {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    margin: 0, auto;
     margin-top: 200px;
     margin-left: 400px;
     margin-bottom: 25px;
     width: 400px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
 }
 
 .card .avatar {
@@ -65,15 +77,9 @@ p {
 }
 
 .nav {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    text-align: center;
-    margin: 0, auto;
     margin-left: 500px;
     margin-top: 25px;
     width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
     position: sticky;
 }
 
@@ -95,15 +101,9 @@ p {
 }
 
 .bio {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    text-align: center;
     width: 600px;
-    margin: 0 auto;
     margin-left: 900px;
     margin-top: -500px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
 }
 
 .bio img {
@@ -116,25 +116,14 @@ p {
 }
 
 .blogheader {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    text-align: center;
     width: 300px;
     margin-left: 1050px;
     margin-top: -450px;
     margin-bottom: 25px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
 }
 
 .blogpost {
-    background-color: #f2f2f2;
-    border-radius: 15px;
-    text-align: center;
     width: 600px;
-    margin: 0 auto;
     margin-left: 900px;
     margin-bottom: 25px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
-    border: 1px solid #aaa;
 }

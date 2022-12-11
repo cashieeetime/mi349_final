@@ -79,6 +79,7 @@ img {
     background-color: #FFFFFF;
     border-radius: 15px;
     margin-top: 35px;
+    margin-bottom: 35px;
     box-shadow: #4166d5 0 0 15px;
     border: #2a4895 dashed 7px;
     position: sticky;

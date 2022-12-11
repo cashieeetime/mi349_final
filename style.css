@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    margin: 15px;
+    margin: 20px;
 }
 
 p {
@@ -56,6 +56,7 @@ article {
 }
 
 .card .avatar {
+    background-color: #F9EFEF;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -109,14 +110,15 @@ article {
 
 .bio {
     width: 400px;
+    margin-top: -25px;
 }
 
 .bio img {
     border-radius: 100%;
-    rotate: 25deg;
-    margin: 20px;
-    width: 350px;
-    height: 400px;
+    rotate: 15deg;
+    margin-top: 25px;
+    width: 90%;
+    height: 90%;
     box-shadow: #4166d5 0 0 15px;
     border: #2a4895 dashed 7px;
     padding: 10px 10px;

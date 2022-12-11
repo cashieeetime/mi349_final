@@ -1,7 +1,7 @@
 body {
-    background-color: #ccc;
+    background-color: #F9EFEF;
     font-family: Arial, Helvetica, sans-serif;
-    color: #222;
+    color: #1c1d21;
     margin-top: 100px;
 }
 
@@ -22,21 +22,21 @@ p {
 }
 
 section {
-    background-color: #f2f2f2;
+    background-color: #F9EFEF;
     border-radius: 15px;
     text-align: center;
     margin: 0 auto;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    box-shadow: #fdc54c 0 0 15px;
     border: 1px solid #aaa;
 }
 
 article {
-    background-color: #f2f2f2;
+    background-color: #F9EFEF;
     border-radius: 15px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 25px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    box-shadow: #fdc54c 0 0 15px;
     border: 1px solid #aaa;
 }
 
@@ -132,5 +132,5 @@ article {
 .linklist li {
     width: 100px;
     display: inline-block;
-    padding: 20px, 20px;
+    padding: 20px 20px;
 }

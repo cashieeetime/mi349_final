@@ -2,7 +2,9 @@ body {
     background-color: #F9EFEF;
     font-family: Arial, Helvetica, sans-serif;
     color: #101010;
-    margin-top: 75px;
+    margin: 100px;
+    margin-top: 125px;
+    text-align: center;
 }
 
 img {
@@ -18,50 +20,38 @@ h2 {
 }
 
 p {
-    margin: 20px;
-    line-height: 23px;
-}
-
-section {
-    background-color: #F9EFEF;
-    border-radius: 15px;
-    text-align: center;
-    margin: 0 auto;
-    box-shadow: #fdc54c 0 0 15px;
-    border: 1px solid #aaa;
+    margin: 25px;
+    line-height: 25px;
 }
 
 article {
     background-color: #F9EFEF;
     border-radius: 15px;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 40px;
-    box-shadow: #fdc54c 0 0 15px;
-    border: 1px solid #aaa;
+    width: 600px;
+    margin-top: 35px;
+    box-shadow: #4166d5 0 0 15px;
+    border: #2a4895 dashed 5px;
 }
 
-#nav {
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#box {
     background-color: #F9EFEF;
     border-radius: 15px;
-    text-align: center;
-    margin-left: 525px;
-    box-shadow: #fdc54c 0 0 15px;
-    border: 1px solid #aaa;
-}
-
-#nav-border  {
-    padding: 40px 20px;
-    width: 400px;
-    margin-left: 400px;
-    border-bottom: #2a4895 dashed 7px;
+    margin-top: 35px;
+    box-shadow: #4166d5 0 0 15px;
+    border: #2a4895 dashed 7px;
 }
 
 .card {
     margin-top: 30px;
-    margin-left: 0px;
-    margin-bottom: 25px;
-    width: 400px;
+    margin-bottom: 35px;
+    margin-right: 50px;
+    width: 350px;
     position: sticky;
 }
 
@@ -70,6 +60,7 @@ article {
     height: 100px;
     border-radius: 50%;
     margin-top: -75px;
+    box-shadow: #4166d5 0 0 15px;
     border: #2a4895 dashed 7px;
     padding: 10px 10px;
 }
@@ -96,14 +87,11 @@ article {
 }
 
 .nav {
-    margin-left: 425px;
-    margin-top: 50px;
-    width: 200px;
+    width: 350px;
     position: sticky;
 }
 
 .sites {
-    margin: 0;
     padding: 0;
     list-style-type: none;
 }
@@ -120,28 +108,18 @@ article {
 }
 
 .bio {
-    width: 600px;
-    margin-left: 900px;
-    margin-top: -525px;
+    width: 400px;
 }
 
 .bio img {
     border-radius: 100%;
     rotate: 25deg;
-    margin: 25px auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 20px;
     width: 350px;
     height: 400px;
+    box-shadow: #4166d5 0 0 15px;
     border: #2a4895 dashed 7px;
     padding: 10px 10px;
-}
-
-.blogpost {
-    width: 600px;
-    margin-left: 900px;
-    margin-top: 40px;
-    margin-bottom: 50px;
 }
 
 .linklist li {
@@ -150,14 +128,11 @@ article {
     padding: 20px 20px;
 }
 
-#border-top {
-    padding: 40px 20px;
-    border-top: #2a4895 dashed 7px;
-}
-
-#blogheader {
-    width: 300px;
-    margin-left: 1050px;
-    margin-top: -425px;
-    margin-bottom: 40px;
+.blogheader {
+    width: 600px;
+    margin-top: -50px;
+    background-color: #F9EFEF;
+    border-radius: 15px;
+    box-shadow: #4166d5 0 0 15px;
+    border: #2a4895 dashed 7px;
 }

@@ -21,7 +21,9 @@ h2 {
 .card {
     background-color: #f2f2f2;
     border-radius: 15px;
-    margin: 0 auto;
+    margin: 0, auto;
+    margin-left: 400px;
+    margin-bottom: 25px;
     width: 400px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
@@ -51,4 +53,86 @@ h2 {
 .contacts li a img:hover {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
+}
+
+.home .nav {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0, auto;
+    margin-left: 200px;
+    margin-top: 25px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
+    position: sticky;
+}
+
+.about .nav {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0, auto;
+    margin-left: 500px;
+    margin-top: -500px;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
+    position: sticky;
+}
+
+.sites {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.sites li {
+    width: 50px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.sites li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.nav h2 {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.bio {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-left: 900px;
+    margin-top: -245px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 0 20px;
+    border: 1px solid #aaa;
+}
+
+.bio img {
+    border-radius: 100%;
+    margin: 25px, auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 400px;
+    height: 500px;
+}
+
+.bio h2 {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.bio p {
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
